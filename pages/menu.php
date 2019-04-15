@@ -9,7 +9,7 @@
 $estado = 'active';
 $titulo = 'Dashboard';
 
-if ($_SERVER["REQUEST_URI"] == '/loja/pages/clientes.php') {
+if ($_SERVER["REQUEST_URI"] == '/loja-nucci/pages/clientes.php') {
 
     $estado2 = 'active';
     $estado = null;

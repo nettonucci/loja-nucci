@@ -20,6 +20,8 @@ $rs = mysqli_query($con,"Select * From clientes");
   <link href="../assets/css/material-dashboard.css?v=2.1.1" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="../assets/demo/demo.css" rel="stylesheet" />
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+
 </head>
 
 <body class="">
@@ -88,14 +90,16 @@ $rs = mysqli_query($con,"Select * From clientes");
                                     <?php while ($row = mysqli_fetch_array($rs)) { ?>
                                         <tr>
                                             <td><?php echo $row['id_cliente'] ?></td>
-                                            <td><img src="../fotos_clientes/<?php echo $row['foto'] ?>" width="100" height="100"></td>
+                                            <td><img src="../fotos_clientes/<?php echo $row['foto'] ?>" width="70" height="70"></td>
                                             <td><?php echo $row['nome'] ?></td>
                                             <td><?php echo $row['celular'] ?></td>
-                                            <button type="button" class="btn btn-warning" title="Editar OS"
-                                                    onclick="javascript:location.href='editos.php?idos='
-                                                            + <?php echo $row['idos'] ?> ">
-                                                <span class="ion-edit" aria-hidden="true"></span>
-                                            </button>
+                                            <td>
+                                                <button type="button" class="btn btn-default" title="Ver cliente"
+                                                        onclick="javascript:location.href='editos.php?id_cliente='
+                                                                + <?php echo $row['id_cliente'] ?> ">
+                                                    <ion-icon name="search" size="small"></ion-icon>
+                                                </button>
+                                            </td>
                                         </tr>
                                         <?php
 
