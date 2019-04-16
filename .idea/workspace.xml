@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f406e46-98eb-4451-b52b-f55a72b30c53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotos_clientes/8cea0a3afe75226658fb3538cd414e9e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/clientes.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/clientes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/menu.php" afterDir="false" />
-    </list>
+    <list default="true" id="6f406e46-98eb-4451-b52b-f55a72b30c53" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +22,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/clientes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="1087">
               <caret line="93" column="76" selection-start-line="93" selection-start-column="58" selection-end-line="93" selection-end-column="76" />
             </state>
           </provider>
@@ -49,16 +43,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/add_cliente.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
+            <state relative-caret-position="1005">
               <caret line="67" column="121" selection-start-line="67" selection-start-column="121" selection-end-line="67" selection-end-column="121" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
+            <state relative-caret-position="7140">
               <caret line="476" column="8" selection-start-line="476" selection-start-column="8" selection-end-line="476" selection-end-column="8" />
             </state>
           </provider>
@@ -102,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="709" />
@@ -166,19 +160,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555370941850</updated>
-      <workItem from="1555370943079" duration="5418000" />
+      <workItem from="1555370943079" duration="5820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5418000" />
+    <option name="totallyTimeSpent" value="5820000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="650" y="0" width="630" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5255102" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -216,13 +210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/clientes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="93" column="76" selection-start-line="93" selection-start-column="58" selection-end-line="93" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/outros/user.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3578">
@@ -237,17 +224,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7140">
+          <caret line="476" column="8" selection-start-line="476" selection-start-column="8" selection-end-line="476" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/add_cliente.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
+        <state relative-caret-position="1005">
           <caret line="67" column="121" selection-start-line="67" selection-start-column="121" selection-end-line="67" selection-end-column="121" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.php">
+    <entry file="file://$PROJECT_DIR$/pages/clientes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="476" column="8" selection-start-line="476" selection-start-column="8" selection-end-line="476" selection-end-column="8" />
+        <state relative-caret-position="1087">
+          <caret line="93" column="76" selection-start-line="93" selection-start-column="58" selection-end-line="93" selection-end-column="76" />
         </state>
       </provider>
     </entry>
