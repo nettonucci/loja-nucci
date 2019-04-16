@@ -9,7 +9,7 @@
 $estado = 'active';
 $titulo = 'Dashboard';
 
-if ($_SERVER["REQUEST_URI"] == '/loja-nucci/pages/clientes.php') {
+if ($_SERVER["REQUEST_URI"] == '/loja-nucci/pages/clientes.php' || $_SERVER["REQUEST_URI"] == '/loja-nucci/pages/add_cliente.php') {
 
     $estado2 = 'active';
     $estado = null;
@@ -115,7 +115,7 @@ if ($_SERVER["REQUEST_URI"] == '/loja-nucci/pages/clientes.php') {
         <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
             <div class="container-fluid">
                 <div class="navbar-wrapper">
-                    <a class="navbar-brand" href="#pablo"><?php echo $titulo ?></a>
+                    <a class="navbar-brand"><?php echo $titulo ?></a>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="sr-only">Toggle navigation</span>

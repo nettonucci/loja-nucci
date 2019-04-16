@@ -30,6 +30,7 @@ $rs = mysqli_query($con,"Select * From clientes");
     <?php require_once "menu.php" ?>
     <div class="main-panel">
 
+
         <!-- End Navbar -->
         <div class="content">
             <div class="container-fluid">
@@ -41,7 +42,7 @@ $rs = mysqli_query($con,"Select * From clientes");
                                 <div class="card-icon">
                                     <i class="material-icons">add</i>
                                 </div>
-                                <a href="#1"><h3 class="card-title"> Novo Cliente </h3></a>
+                                <a href="add_cliente.php"><h3 class="card-title"> Novo Cliente </h3></a>
                             </div>
                         </div>
                     </div>
